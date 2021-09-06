@@ -21,7 +21,17 @@ button {
 }
 label {
 	display: block;
+	font-size: 20px;
 }
 .input-block {
 	margin: 50px auto;
+	font-size: 20px;
+}
+
+#result_p {
+	padding: 10px 20px;
+	font-size: 20px;
+	background-color: #fff;
+	display: inline-block;
+	border-radius: 15px;
 }

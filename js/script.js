@@ -13,7 +13,7 @@ function operation(operationValue) {
 	} else if (operationValue === "/") {
 		var result = number1 / number2;
 	} else alert('error, operation is unknown')
-	window.alert(result);
+	input_row.insertAdjacentHTML('afterend', `<p id='result_p'>Result: ${result}</p>`);
 }
 function onButtonClick(eventObject) {
 	let clickedElement = eventObject.currentTarget;
